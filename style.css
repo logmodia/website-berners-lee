@@ -1,16 +1,8 @@
-@font-face {
-    font-family:OpenSans-Light ;
-    font-family:OpenSans-Bold ;
-    src: url(./OpenSans-Bold.ttf);
-    src: url(./OpenSans-Regular.ttf);
-}
-
-* {
-    font-family:OpenSans-Regular !important ;
-    font-size: large;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
     background-color: rgb(211, 207, 207);
     color: rgb(104, 102, 102);
 }
@@ -20,7 +12,6 @@ section {
 }
 
 h1, h2,h4 {
-    font-family:OpenSans-Bold !important;
     text-align: center;
 }
 
@@ -39,7 +30,7 @@ img.tim_picture {
     margin-top: 15px;
 }
 
-h2.seeyourself {
+h4.seeyourself {
     display: inline-block;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -68,19 +59,19 @@ section.socialmedia {
     display: block;
 }
 
-ul li {
-    display: inline-block;
-}
 
 ul.list_logo {
     padding-right: 170px;
     padding-left: 170px;
 }
 
-img.logo_fbtwitlink {
-    width: 30px;
-    height: 30px;
-    padding-left: 10px;
+ul li {
+    display: inline-block;
+}
+
+a.icones {
+    padding-left: 30px;
+    color: gray;
 }
 
 
@@ -120,7 +111,7 @@ a {
     text-decoration: none;
 }
 
-a:link {
+.seeyourself a {
     color: whitesmoke;
 }
 

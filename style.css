@@ -1,3 +1,133 @@
+@font-face {
+    font-family:OpenSans-Light ;
+    font-family:OpenSans-Bold ;
+    src: url(./OpenSans-Bold.ttf);
+    src: url(./OpenSans-Regular.ttf);
+}
+
 * {
-    background-color: thistle;
+    font-family:OpenSans-Regular !important ;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(211, 207, 207);
+    color: rgb(104, 102, 102);
+}
+
+section {
+    border-radius: 5px;
+}
+
+h1, h2,h4 {
+    font-family:OpenSans-Bold !important;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(252, 247, 247);
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 5px;
+}
+img.tim_picture {
+    border: 5px solid darkgrey;
+    border-style: double;
+    border-radius: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+}
+
+h2.seeyourself {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: darkred;
+    color: whitesmoke;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+
+p {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.socialmedia {
+    
+    background-color: rgb(252, 247, 247);
+
+    margin-left: 350px;
+    margin-right: 350px;
+
+    display: block;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul.list_logo {
+    padding-right: 170px;
+    padding-left: 170px;
+}
+
+img.logo_fbtwitlink {
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+
+section.section3 {
+    
+    background-color: rgb(252, 247, 247);
+
+    height: fit-content;
+
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+img.img_float {
+    float: left;
+    width: 80px;
+    height: 120px;
+    padding-right: 15px;
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+h1.tim_name {
+    color: darkred;
+}
+
+br.clear_float {
+    clear: both;
+}
+
+h2.favorite_movie {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+span.his_fav {
+    background-color: rgb(201, 196, 196);
 }

@@ -5,64 +5,93 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Tim Berners Lee summery's life</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='main.js'></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 
 </head>
     <body>
-        <img src="./images/tim_berners_lee.jpg" alt="Tim Berners-Lee picture"><br/>
-        <h1>Tim Berners-Lee</h1>
 
-        <h2>Inventor of the web</h2>
+        <header>
+            <figure>
+                <img class="tim_picture" src="./images/tim_berners_lee.jpg" alt="Tim Berners-Lee picture"><br/>
+            </figure>
+            <h1 class="tim_name">Tim Berners-Lee</h1>
 
-        <p>
-            Tim Berners-Lee is the inventor of the Web.
-            In 1989, Tim was working in computing services section of CERN when he came up with the concept; 
-            at the time he had no idea that it would be implemented on such an enormous scale.
-        </p>
+            <h2>Inventor of the HTML</h2>
 
-        <h2>See for yourself</h2>
+            <p>
+                Tim Berners-Lee is the <strong>inventor</strong> of the Web.
+                In 1989, Tim was working in computing services section of CERN when he came up with the concept; 
+                at the time he had no idea that it would be implemented on such an <strong>enormous scale</strong>.
+            </p>
 
-        <ul>
-            <li>f_</li>
-                Facebook
-            <li>in_</li>
-                Linkedin
-            <li>Twitter</li>
-                Tweetter
-        </ul>
+            <h2 class="seeyourself"><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"> See for yourself</a></h2>
+        </header>
 
-        <h2>His favorite movies</h2>
+        <section class="socialmedia">
+            <ul class="list_logo">
+                <li>
+                    <figure>
+                        <a href="#"><img class="logo_fbtwitlink" src="./images/logo_fb.png" alt="Logo Facebook"></a>
+                        <figcaption>Facebook</figcaption>
+                    </figure>
+                </li>
 
-        <figure>
-            <img src="./images/space_odyssey.jpg" alt="Space Odessey image">
-        </figure>
+                <li>
+                    <figure>
+                        <a href="#"><img class="logo_fbtwitlink" src="./images/logo_linkedIn_png.png" alt="Logo Linkedin"></a>
+                        <figcaption>Linkedin</figcaption>
+                    </figure>
+                </li>
 
-        <h4>2021 -Space Odyssey</h4>
-        <p> 
-            Humanity finds a mysterious, obviosly artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.
-        </p>
-        
-        <figure>
-            <img src="./images/mister_hulot.jpg" alt="Monsieur Hulot image">
-        </figure>
+                <li>
+                    <figure>
+                        <a href="#"><img class="logo_fbtwitlink" src="./images/logo_twitter_png.png" alt="Logo Twitter"></a>
+                        <figcaption>Twitter</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            
 
-        <h4>Monsieur Hulot</h4>
-        <p> 
-            Monsieur Hulot comes to a beachside hotel for vacation, where he accidently (but good-naturedly) causes havoc.
-        </p>
-        
-        <figure>
-            <img src="./images/alien.jpg" alt="Space Odessey image">
-        </figure>
+        </section>
 
-        <h4>Alien</h4>
-        <p>   
-            The commercial vessel Nostromo receives a distress call from an unplored planet. 
-            After searching for survivors, the heads home only to realize that a deadly bioform has joined them.
-        </p>
+        <section class="section3">
+
+             <h2 class="favorite_movie"><span class="his_fav"> His</span> favorite movies</h2>
+
+            <figure>
+                <img class="img_float" src="./images/space_odyssey.jpg" alt="Space Odessey image">
+            </figure>
+            
+            <h4>2021 -Space Odyssey</h4>
+            <p> 
+                Humanity finds a mysterious, obviosly artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.
+            </p>
+            
+            <br class="clear_float"/>
+
+            <figure>
+                <img class="img_float" src="./images/mister_hulot.jpg" alt="Monsieur Hulot image">
+            </figure>
+
+            <h4>Monsieur Hulot</h4>
+            <p> 
+                Monsieur Hulot comes to a beachside hotel for vacation, where he accidently (but good-naturedly) causes havoc.
+            </p>
+
+            <br class="clear_float"/>
+
+            <figure>
+                <img class="img_float" src="./images/alien.jpg" alt="Space Odessey image">
+            </figure>
+
+            <h4>Alien</h4>
+            <p>   
+                The commercial vessel Nostromo receives a distress call from an unplored planet. 
+                After searching for survivors, the heads home only to realize that a deadly bioform has joined them.
+            </p>
+            <br/>
+        </section>
 
     </body>
 </html>

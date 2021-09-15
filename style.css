@@ -1,68 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body {
+.main {
     font-family: 'Open Sans', sans-serif;
-    font-size: medium;
+    /*font-size: medium;*/
     background-color: rgb(211, 207, 207);
     color: rgb(104, 102, 102);
+    
 }
 
 section {
     border-radius: 5px;
+    width: 600px;
+    display: flexbox;;
+    margin: 0 auto;
+}
+
+section.first_section {
+    background-color: white;
+    padding-bottom: 15px;
 }
 
 h1, h2,h4 {
     text-align: center;
 }
-
-header {
-    background-color: rgb(252, 247, 247);
-    margin-left: 350px;
-    margin-right: 350px;
-    border-radius: 5px;
+div.tim_picture_block {
+    padding-top: 20px;
 }
+
 img.tim_picture {
     border: 5px solid darkgrey;
     border-style: double;
     border-radius: 300px;
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 15px;
+    display: block;
+    margin: 0 auto;
 }
 
-h4.seeyourself {
-    display: inline-block;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: darkred;
+h1.tim_name {
+    color: rgb(221, 30, 5);
+}
+
+div.tim_description {
+    padding: 30px;
+}
+
+a.link_boutton {
+    display: block;
+    margin:0 auto;
+    background-color: rgb(221, 30, 5);
     color: whitesmoke;
     border-radius: 10px;
     width: 150px;
+    height: 30px;
     text-align: center;
-    margin-left: 330px;
-    margin-right: 330px;
-}
-
-p {
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 5px;
+   
 }
 
 section.socialmedia {
     
     background-color: rgb(252, 247, 247);
-
-    margin-left: 350px;
-    margin-right: 350px;
-
-    display: block;
-}
-
-
-ul.list_logo {
-    padding-right: 170px;
-    padding-left: 170px;
 }
 
 ul li {
@@ -76,35 +72,37 @@ a.icones {
 
 
 section.section3 {
-    
     background-color: rgb(252, 247, 247);
-
-    height: fit-content;
-
-    margin-left: 350px;
-    margin-right: 350px;
-}
-
-img.img_float {
-    float: left;
-    width: 80px;
-    height: 120px;
-    padding-right: 15px;
-    padding-left: 0px;
-    padding-top: 15px;
-}
-
-h1.tim_name {
-    color: darkred;
-}
-
-br.clear_float {
-    clear: both;
+    padding-top: 10px;
 }
 
 h2.favorite_movie {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-top: 15px;
+}
+
+article {
+    display: inline-flexbox;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+img.img_movies {
+    width: 80px;
+    height: 120px;
+}
+
+div.img_movies {
+   display: inline-block;
+   padding: 15px;
+   
+}
+
+div.text_movies {
+    display: inline-block;
+    width: 430px;
+    text-align: justify;
+    
+    
 }
 
 a {

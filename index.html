@@ -9,32 +9,39 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 
 </head>
-    <body>
+    <body class="main">
 
-        <header>
-            <figure>
-                <img class="tim_picture" src="./images/tim_berners_lee.jpg" alt="Tim Berners-Lee picture"><br/>
-            </figure>
+        <section class="first_section">
+            <div class="tim_picture_block">
+                <img class="tim_picture" src="./images/tim_berners_lee.jpg" alt="Tim Berners-Lee picture">
+            </div>
+            
             <h1 class="tim_name">Tim Berners-Lee</h1>
 
             <h2>Inventor of the HTML</h2>
 
-            <p>
-                Tim Berners-Lee is the <strong>inventor</strong> of the Web.
-                In 1989, Tim was working in computing services section of CERN when he came up with the concept; 
-                at the time he had no idea that it would be implemented on such an <strong>enormous scale</strong>.
-            </p>
+            <div class="tim_description">
+                <p>
+                    Tim Berners-Lee is the <strong>inventor</strong> of the Web.
+                    In 1989, Tim was working in computing services section of CERN when he came up with the concept; 
+                    at the time he had no idea that it would be implemented on such an <strong>enormous scale</strong>.
+                 </p>
+            </div>
+            
 
-            <h4 class="seeyourself"><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"> See for yourself</a></h2>
-        </header>
+            <a class="link_boutton" href="https://en.wikipedia.org/wiki/Tim_Berners-Lee"><b>See for yourself</b></a>
+                   
+
+        </section>
 
         <section class="socialmedia">
             <ul class="list_logo">
                 <li>
-                    <figure>
-                        <a class="icones" href="#"><i class="fab fa-facebook-f"></i></a><br/>
-                        <figcaption>Facebook</figcaption>
-                    </figure>
+                    <a class="icones" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </a>
                 </li>
 
                 <li>
@@ -56,41 +63,53 @@
         </section>
 
         <section class="section3">
+                <h2 class="favorite_movie"><span class="his_fav"> His</span> favorite movies</h2>
+                
+            <article>
+                
+                <div class="img_movies">
+                    <img class="img_movies" src="./images/space_odyssey.jpg" alt="Space Odessey image">
+                </div>
+                <div class="text_movies">
+                    <h4>2021 -Space Odyssey</h4>
+                    <p> 
+                        Humanity finds a mysterious, obviosly artificial, object buried beneath the Lunar surface and, 
+                        with the intelligent computer H.A.L. 9000, sets off on a quest.
+                    </p>
+                </div>
+                
+            </article>
 
-             <h2 class="favorite_movie"><span class="his_fav"> His</span> favorite movies</h2>
+            <article>
 
-            <figure>
-                <img class="img_float" src="./images/space_odyssey.jpg" alt="Space Odessey image">
-            </figure>
-            
-            <h4>2021 -Space Odyssey</h4>
-            <p> 
-                Humanity finds a mysterious, obviosly artificial, object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.
-            </p>
-            
-            <br class="clear_float"/>
+                <div class="img_movies">
+                    <img class="img_movies"  src="./images/mister_hulot.jpg" alt="Monsieur Hulot image">
+                </div>
 
-            <figure>
-                <img class="img_float" src="./images/mister_hulot.jpg" alt="Monsieur Hulot image">
-            </figure>
+                <div class="text_movies">
+                    <h4>Monsieur Hulot</h4>
+                    <p> 
+                        Monsieur Hulot comes to a beachside hotel for vacation, where he accidently (but good-naturedly) causes havoc.
+                    </p>
+                </div>
 
-            <h4>Monsieur Hulot</h4>
-            <p> 
-                Monsieur Hulot comes to a beachside hotel for vacation, where he accidently (but good-naturedly) causes havoc.
-            </p>
+            </article>
 
-            <br class="clear_float"/>
+            <article>
+                <div class="img_movies">
+                    <img class="img_movies" src="./images/alien.jpg" alt="Space Odessey image">
+                </div>
+                
+                <div class="text_movies">
+                    <h4>Alien</h4>
+                    <p>   
+                        The commercial vessel Nostromo receives a distress call from an unplored planet. 
+                        After searching for survivors, the heads home only to realize that a deadly bioform has joined them.
+                    </p>
+                </div>
+                
+                </article>
 
-            <figure>
-                <img class="img_float" src="./images/alien.jpg" alt="Space Odessey image">
-            </figure>
-
-            <h4>Alien</h4>
-            <p>   
-                The commercial vessel Nostromo receives a distress call from an unplored planet. 
-                After searching for survivors, the heads home only to realize that a deadly bioform has joined them.
-            </p>
-            <br/>
         </section>
 
     </body>

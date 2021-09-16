@@ -13,10 +13,11 @@ section {
     width: 600px;
     display: flexbox;;
     margin: 0 auto;
+    background-color: white;
+    padding-bottom: 15px;
 }
 
 section.first_section {
-    background-color: white;
     padding-bottom: 15px;
 }
 
@@ -55,29 +56,49 @@ a.link_boutton {
     padding-top: 5px;
    
 }
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: green;
+}
+
+div.hilight_hover:hover {
+    background-color: yellow;
+}
 
 section.socialmedia {
-    
-    background-color: rgb(252, 247, 247);
+    height: 100px;
+    padding-bottom: 15px;
+}
+
+div.list_logo {
+    width: 450px;
+    margin: 0 auto;
+}
+
+ul {
+    width: 350px;
+    padding-top: 15px;
 }
 
 ul li {
     display: inline-block;
+    padding: 25px;
+    
 }
 
+
+div.ico_fb {
+    margin-left: 25px;
+}
 a.icones {
-    padding-left: 30px;
     color: gray;
 }
 
-
-section.section3 {
-    background-color: rgb(252, 247, 247);
-    padding-top: 10px;
-}
-
 h2.favorite_movie {
-    margin-top: 15px;
+    padding: 20px;
 }
 
 article {
@@ -101,22 +122,13 @@ div.text_movies {
     display: inline-block;
     width: 430px;
     text-align: justify;
-    
-    
-}
-
-a {
-    text-decoration: none;
 }
 
 .seeyourself a {
-    color: whitesmoke;
-}
-
-a:visited {
-    color: whitesmoke;
+    color: white;
 }
 
 span.his_fav {
     background-color: rgb(201, 196, 196);
 }
+

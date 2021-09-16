@@ -4,13 +4,13 @@
 >The content of the website is just a short summery of Berners-Lee's life.
 ---
 
-##Used technologies
+## Used technologies
 ---
 1. HTML
 2. CSS
 
-##Deployment method
+## Deployment method
 
- . GitHub page
+  * GitHub page
 
 [Clic here to visit the page](https://logmodia.github.io/website-berners-lee/)
